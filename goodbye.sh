@@ -1,1 +1,1 @@
-echo "Goodbye $INPUT_WHO-TO-GREET"
+echo "Goodbye $INPUT_WHO_TO_GREET"
