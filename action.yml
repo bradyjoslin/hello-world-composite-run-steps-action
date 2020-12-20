@@ -20,4 +20,6 @@ runs:
       run: echo "::set-output name=random-id::$(echo $RANDOM)"
       shell: bash
     - run: ${{ github.action_path }}/goodbye.sh
+      env:
+        WHO_TO_GREET: ${{ inputs.who_to_greet }}
       shell: bash
